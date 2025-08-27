@@ -34,21 +34,21 @@ My Command Line Shell is:
 ### Navigating My OS on the Command Line
 
 1. Full / absolute path to your user's home directory: 
-2. Create a directory named `DirA`:
-3. Create a directory named `Dir B`:
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+2. Create a directory named `DirA`: mkdir DirA
+3. Create a directory named `Dir B`: mkdir Dir B
+4. Go into `DirA`: cd DirA
+5. Go into `Dir B` from `DirA`:cd ../Dir B
+6. Return to your user's home directory: cd %USERPROFILE%
+7. Create a file named `test.txt`: notepad.exe test.txt
+8. Move the file named `test.txt` into `DirA`:move test.txt DirA/test.txt 
+9. Contents of `test.txt`: echo hello >> test.txt
 ```
-Put your words here
+hello
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: copy test.txt copy.txt
+11. View the contents of `DirA`: cd dirA; ls
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: copy DirA/test.txt "Dir B/fodder.txt"
+13. Delete / remove both `fodder.txt` AND `Dir B`: Remove-Item "Dir B"
 
 ## Citations
 
