@@ -11,16 +11,16 @@
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         |   manuual     |
-| Get-Location | pwd    |    It creat me path   floder |
-| Get-ChildItem | ls    |    Whats in the floder  |
-| mkdir   | mkdir       |    mkdir  makes floder    |
-| Set-Location | cd     |     It creat me path 1   |
+| help    | man         |   manual     |
+| Get-Location | pwd    |    current folder youre in |
+| Get-ChildItem | ls    |    Whats in the folder  |
+| mkdir   | mkdir       |    mkdir  makes folder    |
+| Set-Location | cd     |     change folder   |
 | New-Item | touch      |     makes new file    |
 | Move-Item | mv        |      moving item   |
 | Copy-Item | cp        |       copy the item |
 | Remove-Item | rm      |     delets the file    |
-| noteapd.exe | vim     |      twxt edit   |
+| noteapd.exe | vim     |      text edit   |
 
 ## Part 3 - Command Line Navigation
 
