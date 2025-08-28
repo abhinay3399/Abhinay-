@@ -38,7 +38,7 @@ My Command Line Shell is:
 3. Create a directory named `Dir B`: mkdir Dir B
 4. Go into `DirA`: cd DirA
 5. Go into `Dir B` from `DirA`:cd ../Dir B
-6. Return to your user's home directory: cd %USERPROFILE%
+6. Return to your user's home directory: cd %Abhinay%
 7. Create a file named `test.txt`: notepad.exe test.txt
 8. Move the file named `test.txt` into `DirA`:move test.txt DirA/test.txt 
 9. Contents of `test.txt`: echo hello >> test.txt
